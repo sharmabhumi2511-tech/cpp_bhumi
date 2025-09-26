@@ -1,4 +1,4 @@
-// deque==double ended queue...
+// deque==double ended queue...IMPLEMENT by dynamic array
 //deqeue==(kisi bhi quee se element pop krna)
 #include<iostream>
 #include<deque>
@@ -9,6 +9,7 @@ int main(){
     for(int val:d){
         cout<<val<<"\n";
     }
+    cout<<d[3];
     return 0;
 
 }
